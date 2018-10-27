@@ -1,0 +1,168 @@
+*, html, body{ margin: 0; padding: 0; outline: none; list-style: none; font-family: Arial, sans-serif; box-sizing: border-box; text-decoration: none;}
+
+header{
+    width: 100%; 
+    height: 487px;
+    background: url(./img/Fonchik.png) no-repeat center #fff;
+    background-size: cover;
+    padding-top: 50px;
+}
+
+.wrap{
+    width: 1024px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+}
+
+.item{
+    display: block;
+    padding: 5px 25px;
+    color: #fff;
+    font-size: 23px;
+    font-weight: lighter;
+}
+
+.headbar-content{
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+}
+
+.headbar-content-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 70px;
+}
+
+.headbar-content-text h2{
+    font-size: 45px;
+    color: #fff;
+}
+
+.headbar-content-text span{
+    display: block;
+    font-size: 65px;
+}
+
+.btn{
+    width: 140px;
+    text-align: center;
+    display: block;
+    padding: 10px 15px;
+    background: #175b3b;
+    margin-top: 20px;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0, 73);
+}
+
+.products{
+    margin-top: 70px;
+    flex-direction: column;
+}
+.products-tabs{
+    width: 100%;
+}
+
+.products-tabs ul{
+    width: 100%;
+    display: flex;
+}
+
+.products-tabs ul li{
+    width: 25%;
+}
+
+.products-tabs-item{
+    display: block;
+    width: 100%;
+    padding: 28px 0;
+    text-align: center;
+    color: #5c5b5b;
+    font-size: 27px;
+    border: 1px solid transparent;
+}
+
+.products-tabs-item.active{
+    border-color: #dedede;
+    border-bottom: 1px solid #fff;
+    box-shadow: 0 -1px 3px #dedede;
+    font-weight: bold;
+    position: relative;
+    z-index: 10;
+}
+
+.iconBlock{
+    margin: 0 auto 15px;
+    width: 136px;
+    height: 155px;
+    background: url(./img/spriteicon.png) no-repeat #fff;
+    transition: 1s;
+}
+
+.iconBlock1 {background-position: 0 0;}
+.iconBlock2 {background-position: -136px 0;}
+.iconBlock3 {background-position: -272px 0;}
+.iconBlock4 {background-position: -408px 0;}
+
+.products-tabs-item:hover .iconBlock1 {background-position: 0 -157px;}
+.products-tabs-item:hover .iconBlock2 {background-position: -136px -157px;}
+.products-tabs-item:hover .iconBlock3 {background-position: -272px -157px;}
+.products-tabs-item:hover .iconBlock4 {background-position: -408px -157px;}
+
+.products-content {
+    margin-top: -1px;
+    padding: 50px;
+    border: 1px solid #dedede;
+    box-shadow: 0 0 3px #dedede;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background: #e5e5e5;
+    margin: 20px 0;
+}
+
+.loginMember {
+    padding: 15px 25px;
+    width: 60%;
+    background: #e67624;
+    border-radius: 5px;
+}
+
+.inputText {
+    width: 200px;
+    background: #fff;
+    border: 0;
+    padding: 5px 15px;
+}
+
+.wrapInput {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.send {
+    background: #444;
+    padding: 10px;
+    color: #fff;
+    border: 0;
+}
+
+.form h3 {
+    color: #fff;
+}
+
+.a1 {
+    color: red;
+    
+}
